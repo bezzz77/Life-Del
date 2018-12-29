@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* line 1, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.headerforsite {
+  background-image: url("../img/backbootle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+/* line 7, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.headerlen__wrap {
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-between;
+  padding-bottom: 45px;
+}
+
+/* line 12, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.contactbotle {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+
+/* line 16, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.contactbotle a {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: lighter;
+  color: #dde7f2;
+  text-decoration: none;
+}
+
+/* line 23, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.deliverybotle p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: lighter;
+  color: #dde7f2;
+}
+
+/* line 28, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlesale__wrap {
+  padding-bottom: 60px;
+}
+
+/* line 31, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlesale__wrap .botle-head h1 {
+  font-size: 30px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 25px;
+  color: #dde7f2;
+}
+
+/* line 38, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlesale__wrap .botle-head p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #dde7f2;
+}
+
+/* line 44, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlefunction {
+  padding-left: 30px;
+}
+
+/* line 46, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlefunction .functionall {
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+/* line 50, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlefunction .functionall p {
+  color: #dde7f2;
+  font-size: 16px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  width: 33%;
+  line-height: 1.5;
+  margin-right: 40px;
+}
+
+/* line 58, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlefunction .functionall .linebotle {
+  height: 2px;
+  width: 31%;
+  background-color: #fff;
+}
+
+/* line 62, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botlefunction .botleimg {
+  position: absolute;
+  right: 17%;
+  top: 15%;
+}
+
+/* line 66, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer {
+  width: 850px;
+  height: 190px;
+  background-color: #ecf9fd;
+  border-radius: 25px;
+  box-shadow: 0px 0px 48px -8px black;
+}
+
+/* line 72, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-txt {
+  padding: 20px;
+}
+
+/* line 74, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-txt h4 {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+/* line 80, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-txt p {
+  font-size: 16px;
+  font-family: "OpenSans";
+  font-weight: normal;
+}
+
+/* line 85, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* line 89, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.one {
+  padding-left: 20px;
+  width: 30%;
+}
+
+/* line 92, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.one p {
+  font-size: 48px;
+  font-weight: bold;
+  font-family: "OpenSans";
+  color: #1cc4ca;
+  display: inline-block;
+}
+
+/* line 98, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.one span {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "OpenSans";
+  text-decoration: line-through;
+  display: inline-block;
+}
+
+/* line 104, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.two {
+  width: 20%;
+}
+
+/* line 106, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.two p {
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "OpenSans";
+}
+
+/* line 110, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.three {
+  margin-right: 15px;
+  background-color: #fff;
+  width: 90px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+/* line 116, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.three p {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "OpenSans";
+  color: #1cc4ca;
+  text-align: center;
+}
+
+/* line 122, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all.three span {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "OpenSans";
+  color: #c0bebe;
+  display: block;
+  text-align: center;
+}
+
+/* line 129, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items button {
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 240px;
+  height: 55px;
+  background-color: #1cc4ca;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "OpenSans";
+  color: #fff;
+}
+
+/*# sourceMappingURL=../../css/components/headerforsite.map */
