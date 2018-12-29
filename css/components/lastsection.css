@@ -53,18 +53,21 @@
   border-bottom: 1px solid white;
   color: #fff;
   margin-bottom: 30px;
+  margin-right: 50px;
+  width: 46%;
 }
 
-/* line 36, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 38, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .town {
   border: 0;
   background: 0;
   border-bottom: 1px solid white;
   color: #fff;
   margin-bottom: 30px;
+  width: 47%;
 }
 
-/* line 42, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 45, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .clientbtn {
   display: block;
   width: 440px;
@@ -79,14 +82,14 @@
   margin-left: 350px;
 }
 
-/* line 54, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 57, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .pricebtn {
   position: absolute;
   bottom: 0;
   left: 310px;
 }
 
-/* line 58, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 61, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .pricebtn p {
   font-size: 48px;
   font-weight: bold;
@@ -95,7 +98,7 @@
   display: inline-block;
 }
 
-/* line 64, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 67, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .pricebtn span {
   font-size: 24px;
   font-weight: bold;
@@ -105,7 +108,7 @@
   color: #b9c7cc;
 }
 
-/* line 71, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 74, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot {
   position: absolute;
   bottom: -40%;
@@ -114,14 +117,14 @@
   transform: translateX(50%);
 }
 
-/* line 77, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 80, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot .number {
   display: flex;
   justify-content: space-around;
   padding-bottom: 20px;
 }
 
-/* line 81, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 84, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot .number a {
   font-size: 18px;
   font-family: "OpenSans";
@@ -130,7 +133,7 @@
   text-decoration: none;
 }
 
-/* line 88, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 91, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot .lifedel p {
   font-size: 18px;
   font-family: "OpenSans";
@@ -138,7 +141,7 @@
   color: #dde7f2;
 }
 
-/* line 93, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 96, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientimg {
   left: -25%;
   position: absolute;
