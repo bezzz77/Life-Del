@@ -24,57 +24,57 @@
   text-align: center;
 }
 
-/* line 14, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
-.bottlename {
-  display: flex;
-  justify-content: space-between;
+/* line 15, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+.plastbotle-block .plastic-bottle {
+  padding-bottom: 110px;
 }
 
-/* line 18, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
-.bottlename .plastic-bottle p {
+/* line 17, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+.plastbotle-block .plastic-bottle p {
   font-size: 18px;
   font-family: "OpenSans";
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 23, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
-.bottlename .smart-bottle {
-  padding-right: 300px;
+@media only screen and (max-width: 375px) {
+  /* line 15, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+  .plastbotle-block .plastic-bottle {
+    padding-bottom: 50px;
+  }
 }
 
-/* line 25, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
-.bottlename .smart-bottle p {
-  font-size: 18px;
-  font-family: "OpenSans";
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-/* line 30, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 24, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle {
   display: flex;
   align-items: center;
 }
 
-/* line 33, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+@media only screen and (max-width: 375px) {
+  /* line 24, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+  .plastbotle {
+    flex-direction: column;
+  }
+}
+
+/* line 29, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle-txt {
   padding-bottom: 85px;
 }
 
-/* line 35, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 31, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle-items {
   display: flex;
   align-items: center;
   padding-bottom: 50px;
 }
 
-/* line 39, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 35, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle-items .plastbotle-items-img {
   padding-right: 35px;
 }
 
-/* line 41, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 37, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle-items .plastbotle-items-txt {
   font-size: 16px;
   font-family: "OpenSans";
@@ -82,33 +82,46 @@
   line-height: 1.5;
 }
 
-/* line 46, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 42, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle-blockimg {
   display: flex;
   align-items: center;
   padding: 0 50px;
 }
 
-/* line 50, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 46, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plastbotle-blockimg .lineforbotleimg {
   height: 600px;
   width: 1px;
   background-color: #1cc4ca;
 }
 
-/* line 54, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 51, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+.plasbotle-blocktwo .smart-bottle {
+  padding-bottom: 50px;
+}
+
+/* line 53, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+.plasbotle-blocktwo .smart-bottle p {
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 58, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plasbotle-blocktwo-items {
   display: flex;
   align-items: center;
   padding-bottom: 50px;
 }
 
-/* line 58, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 62, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plasbotle-blocktwo-items .plasbotle-blocktwo-img {
   padding-right: 35px;
 }
 
-/* line 60, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 64, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .plasbotle-blocktwo-items .plasbotle-blocktwo-txt {
   font-size: 16px;
   font-family: "OpenSans";
@@ -116,7 +129,7 @@
   line-height: 1.5;
 }
 
-/* line 65, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
+/* line 69, C:/Users/Коля/Desktop/life/sass/components/firstsecbotle.sass */
 .romb {
   position: absolute;
   bottom: -33px;

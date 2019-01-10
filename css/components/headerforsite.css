@@ -8,7 +8,28 @@
   position: relative;
 }
 
-/* line 7, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 1200px) and (min-width: 1200px) {
+  /* line 1, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerforsite {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 1, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerforsite {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 1, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerforsite {
+    height: 100%;
+  }
+}
+
+/* line 13, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .headerlen__wrap {
   display: flex;
   padding-top: 30px;
@@ -16,14 +37,38 @@
   padding-bottom: 45px;
 }
 
-/* line 12, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 375px) {
+  /* line 19, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerlen__wrap .logolen {
+    padding-right: 30px;
+  }
+  /* line 21, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerlen__wrap .contactlen {
+    display: flex;
+    flex-direction: column;
+  }
+  /* line 24, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerlen__wrap .contactbotle {
+    flex-direction: column;
+  }
+  /* line 26, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerlen__wrap .contactbotle a {
+    font-size: 15px;
+  }
+  /* line 29, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .headerlen__wrap .deliverybotle p {
+    font-size: 15px;
+  }
+}
+
+/* line 31, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .contactbotle {
   display: flex;
   justify-content: space-between;
   padding-bottom: 15px;
 }
 
-/* line 16, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 35, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .contactbotle a {
   font-size: 18px;
   font-family: "OpenSans";
@@ -32,7 +77,7 @@
   text-decoration: none;
 }
 
-/* line 23, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 42, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .deliverybotle p {
   font-size: 18px;
   font-family: "OpenSans";
@@ -40,12 +85,12 @@
   color: #dde7f2;
 }
 
-/* line 28, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 47, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlesale__wrap {
   padding-bottom: 60px;
 }
 
-/* line 31, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 50, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlesale__wrap .botle-head h1 {
   font-size: 30px;
   font-family: "OpenSans";
@@ -55,7 +100,7 @@
   color: #dde7f2;
 }
 
-/* line 38, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 57, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlesale__wrap .botle-head p {
   font-size: 18px;
   font-family: "OpenSans";
@@ -64,19 +109,30 @@
   color: #dde7f2;
 }
 
-/* line 44, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 375px) {
+  /* line 64, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botlesale__wrap .botle-head h1 {
+    font-size: 26px;
+  }
+  /* line 66, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botlesale__wrap .botle-head p {
+    font-size: 17px;
+  }
+}
+
+/* line 68, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlefunction {
   padding-left: 30px;
 }
 
-/* line 46, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 70, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlefunction .functionall {
   display: flex;
   align-items: center;
   padding-bottom: 50px;
 }
 
-/* line 50, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 74, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlefunction .functionall p {
   color: #dde7f2;
   font-size: 16px;
@@ -87,21 +143,48 @@
   margin-right: 40px;
 }
 
-/* line 58, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 82, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlefunction .functionall .linebotle {
   height: 2px;
   width: 31%;
   background-color: #fff;
 }
 
-/* line 62, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 86, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botlefunction .botleimg {
   position: absolute;
   right: 17%;
   top: 15%;
 }
 
-/* line 66, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 1200px) and (min-width: 1024px) {
+  /* line 86, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botlefunction .botleimg {
+    transform: translateX(72%);
+    width: 30%;
+    right: 25%;
+    display: block;
+  }
+  /* line 95, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botlefunction .botleimg img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 86, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botlefunction .botleimg {
+    width: 35%;
+    right: 0%;
+    top: 25%;
+  }
+  /* line 101, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botlefunction .botleimg img {
+    width: 100%;
+  }
+}
+
+/* line 103, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer {
   width: 850px;
   height: 190px;
@@ -110,12 +193,29 @@
   box-shadow: 0px 0px 48px -8px black;
 }
 
-/* line 72, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 768px) {
+  /* line 103, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer {
+    width: 735px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 103, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+/* line 116, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-txt {
   padding: 20px;
 }
 
-/* line 74, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 118, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-txt h4 {
   font-size: 18px;
   font-family: "OpenSans";
@@ -124,27 +224,42 @@
   padding-bottom: 10px;
 }
 
-/* line 80, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 124, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-txt p {
   font-size: 16px;
   font-family: "OpenSans";
   font-weight: normal;
 }
 
-/* line 85, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 375px) {
+  /* line 116, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-txt {
+    width: 100%;
+  }
+}
+
+/* line 130, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-/* line 89, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 375px) {
+  /* line 130, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* line 137, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.one {
   padding-left: 20px;
   width: 30%;
 }
 
-/* line 92, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 140, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.one p {
   font-size: 48px;
   font-weight: bold;
@@ -153,7 +268,7 @@
   display: inline-block;
 }
 
-/* line 98, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 146, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.one span {
   font-size: 24px;
   font-weight: bold;
@@ -162,19 +277,70 @@
   display: inline-block;
 }
 
-/* line 104, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 768px) {
+  /* line 153, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all.one p {
+    font-size: 30px;
+  }
+  /* line 155, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all.one span {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 137, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all.one {
+    padding-left: 0;
+    width: 60%;
+    padding-bottom: 15px;
+  }
+}
+
+/* line 161, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.two {
   width: 20%;
 }
 
-/* line 106, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 163, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.two p {
   font-size: 18px;
   font-weight: normal;
   font-family: "OpenSans";
 }
 
-/* line 110, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+@media only screen and (max-width: 768px) {
+  /* line 168, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all.two p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 161, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all.two {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  /* line 173, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all.two p {
+    text-align: center;
+  }
+}
+
+/* line 175, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+.botletimer .botletimer-items .botletimer-items-all-flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 175, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items .botletimer-items-all-flex {
+    padding-bottom: 15px;
+  }
+}
+
+/* line 179, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.three {
   margin-right: 15px;
   background-color: #fff;
@@ -183,7 +349,7 @@
   border-radius: 15px;
 }
 
-/* line 116, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 185, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.three p {
   font-size: 36px;
   font-weight: bold;
@@ -192,7 +358,7 @@
   text-align: center;
 }
 
-/* line 122, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 191, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items .botletimer-items-all.three span {
   font-size: 14px;
   font-weight: bold;
@@ -202,7 +368,7 @@
   text-align: center;
 }
 
-/* line 129, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+/* line 198, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
 .botletimer .botletimer-items button {
   margin-left: 10px;
   margin-right: 20px;
@@ -215,6 +381,17 @@
   font-weight: bold;
   font-family: "OpenSans";
   color: #fff;
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 198, C:/Users/Коля/Desktop/life/sass/components/headerforsite.sass */
+  .botletimer .botletimer-items button {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
 }
 
 /*# sourceMappingURL=../../css/components/headerforsite.map */

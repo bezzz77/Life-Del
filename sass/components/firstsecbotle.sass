@@ -11,25 +11,21 @@
     font-weight: bold
     text-transform: uppercase
     text-align: center
-.bottlename
-  display: flex
-  justify-content: space-between
+.plastbotle-block
   .plastic-bottle
+    padding-bottom: 110px
     p
       font-size: 18px
       font-family: "OpenSans"
       font-weight: bold
       text-transform: uppercase
-  .smart-bottle
-    padding-right: 300px
-    p
-      font-size: 18px
-      font-family: "OpenSans"
-      font-weight: bold
-      text-transform: uppercase
+    @media only screen and (max-width: 375px)
+      padding-bottom: 50px
 .plastbotle
   display: flex
   align-items: center
+  @media only screen and (max-width: 375px)
+    flex-direction: column
 .plastbotle-txt
   padding-bottom: 85px
 .plastbotle-items
@@ -51,6 +47,14 @@
     height: 600px
     width: 1px
     background-color: #1cc4ca
+.plasbotle-blocktwo
+  .smart-bottle
+    padding-bottom: 50px
+    p
+      font-size: 18px
+      font-family: "OpenSans"
+      font-weight: bold
+      text-transform: uppercase
 .plasbotle-blocktwo-items
   display: flex
   align-items: center

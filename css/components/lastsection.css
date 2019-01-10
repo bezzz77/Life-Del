@@ -7,12 +7,19 @@
   height: 669px;
 }
 
-/* line 6, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 768px) {
+  /* line 1, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .lastsection {
+    height: 675px;
+  }
+}
+
+/* line 8, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .contactforsec__wrap {
   position: relative;
 }
 
-/* line 8, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 10, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .contactforsec__wrap h3 {
   color: #fff;
   font-size: 24px;
@@ -24,19 +31,48 @@
   padding-bottom: 180px;
 }
 
-/* line 17, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 768px) {
+  /* line 10, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .contactforsec__wrap h3 {
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 10, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .contactforsec__wrap h3 {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+/* line 24, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientform {
   padding-left: 245px;
 }
 
-/* line 19, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 768px) {
+  /* line 24, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientform {
+    padding-left: 155px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 24, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientform {
+    padding-left: 0;
+  }
+}
+
+/* line 30, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo {
   display: flex;
   justify-content: center;
   position: relative;
 }
 
-/* line 23, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 34, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .client {
   border: 0;
   background: 0;
@@ -46,7 +82,23 @@
   margin-bottom: 30px;
 }
 
-/* line 30, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 768px) {
+  /* line 34, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .client {
+    width: 50%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 34, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .client {
+    width: 75%;
+    margin-left: 10%;
+  }
+}
+
+/* line 47, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .clienttel {
   border: 0;
   background: 0;
@@ -57,7 +109,23 @@
   width: 46%;
 }
 
-/* line 38, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 768px) {
+  /* line 47, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .clienttel {
+    width: 35%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 47, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .clienttel {
+    width: 75%;
+    margin-left: 10%;
+  }
+}
+
+/* line 61, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .town {
   border: 0;
   background: 0;
@@ -67,7 +135,23 @@
   width: 47%;
 }
 
-/* line 45, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 768px) {
+  /* line 61, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .town {
+    width: 35%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 61, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .town {
+    width: 75%;
+    margin-left: 10%;
+  }
+}
+
+/* line 74, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .clientbtn {
   display: block;
   width: 440px;
@@ -82,14 +166,38 @@
   margin-left: 350px;
 }
 
-/* line 57, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 1024px) {
+  /* line 74, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .clientbtn {
+    margin-left: 270px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 74, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .clientbtn {
+    margin-top: 55px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 74, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .clientbtn {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 25px;
+  }
+}
+
+/* line 95, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .pricebtn {
   position: absolute;
   bottom: 0;
   left: 310px;
 }
 
-/* line 61, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 99, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .pricebtn p {
   font-size: 48px;
   font-weight: bold;
@@ -98,7 +206,7 @@
   display: inline-block;
 }
 
-/* line 67, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 105, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientinfo .pricebtn span {
   font-size: 24px;
   font-weight: bold;
@@ -108,7 +216,30 @@
   color: #b9c7cc;
 }
 
-/* line 74, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 1024px) {
+  /* line 95, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .pricebtn {
+    left: 225px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 95, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .pricebtn {
+    bottom: 80px;
+    left: 318px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 95, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientinfo .pricebtn {
+    left: 30px;
+    padding-bottom: 15px;
+  }
+}
+
+/* line 120, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot {
   position: absolute;
   bottom: -40%;
@@ -117,14 +248,41 @@
   transform: translateX(50%);
 }
 
-/* line 80, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 1024px) {
+  /* line 120, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientcontactfoot {
+    bottom: -25%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 120, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientcontactfoot {
+    bottom: -25%;
+    right: 40%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 120, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientcontactfoot {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    transform: translateY(0);
+    right: 0;
+    position: relative;
+  }
+}
+
+/* line 139, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot .number {
   display: flex;
   justify-content: space-around;
   padding-bottom: 20px;
 }
 
-/* line 84, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 143, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot .number a {
   font-size: 18px;
   font-family: "OpenSans";
@@ -133,7 +291,14 @@
   text-decoration: none;
 }
 
-/* line 91, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+@media only screen and (max-width: 375px) {
+  /* line 139, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientcontactfoot .number {
+    justify-content: space-between;
+  }
+}
+
+/* line 152, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientcontactfoot .lifedel p {
   font-size: 18px;
   font-family: "OpenSans";
@@ -141,13 +306,45 @@
   color: #dde7f2;
 }
 
-/* line 96, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+/* line 157, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
 .clientimg {
   left: -25%;
   position: absolute;
   top: -15%;
   transform: translateY(-20%);
   transform: translateX(20%);
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 157, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientimg {
+    left: -17%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  /* line 157, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientimg {
+    left: -20%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* line 157, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientimg {
+    top: 3%;
+  }
+  /* line 169, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientimg img {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  /* line 157, C:/Users/Коля/Desktop/life/sass/components/lastsection.sass */
+  .clientimg {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=../../css/components/lastsection.map */
